@@ -1,0 +1,34 @@
+{
+  "name": "object-merge-stream",
+  "version": "1.0.0",
+  "description": "Takes in a stream of objects and merges them together, outputting every time the state updates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/object-merge-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "merge",
+    "object",
+    "extend",
+    "state"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/object-merge-stream/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/object-merge-stream",
+  "dependencies": {
+    "object-merge": "^2.5.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "stdout": "0.0.3",
+    "stream-array": "^1.0.1"
+  }
+}
