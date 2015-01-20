@@ -4,7 +4,7 @@ Takes in a stream of objects and merges them together, outputting every time the
 
 ## API
 
-### `mergeStream([state])`
+### `mergeStream([state],[options])`
 
 Creates a new Transform stream which takes in objects, merges them, and outputs
 on every merge.
@@ -12,6 +12,7 @@ on every merge.
 #### parameters
 
 * `[state]` (Object): An optional initial state for merging.
+* `[options]` (Object): Contains options like `depth`.
 
 #### returns
 
@@ -45,5 +46,4 @@ streamArray(data)
 { foo: 'bar', baz: { fizz: 'buzz' } }
 { foo: 'bar', baz: { fizz: 'buzz', qux: 'norf' } }
 */
-
 ```

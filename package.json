@@ -1,6 +1,6 @@
 {
   "name": "object-merge-stream",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Takes in a stream of objects and merges them together, outputting every time the state updates.",
   "main": "index.js",
   "scripts": {
